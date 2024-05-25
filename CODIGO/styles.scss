@@ -1,0 +1,43 @@
+$dark-color: #333;
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+body {
+    background-color: $dark-color;
+    color: #fff;
+}
+
+.container {
+    background-color: lighten($dark-color, 10%);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: $primary-color;
+    font-size: 2.5rem;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: lighten($dark-color, 20%);
+    border-color: transparent;
+    color: #fff;
+}
+
+.btn {
+    background-color: $primary-color;
+    border-color: $primary-color;
+}
+
+.btn:hover {
+    background-color: darken($primary-color, 10%);
+}
+
+p {
+    font-size: 1.2rem;
+}
